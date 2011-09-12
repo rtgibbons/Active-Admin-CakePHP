@@ -1,5 +1,4 @@
 <div id="index_footer">
-Download:&nbsp;<a href="/admin/customers.csv?order=id_desc&amp;page=2">CSV</a>&nbsp;<a href="/admin/customers.xml?order=id_desc&amp;page=2">XML</a>&nbsp;<a href="/admin/customers.json?order=id_desc&amp;page=2">JSON</a>
 <nav class="pagination">
 	<?php if($paginator->hasPrev()):?>
 	<span class="first">

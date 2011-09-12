@@ -97,6 +97,7 @@ form ul,form ol,form li,form fieldset,form legend,form input,form textarea,form 
 form ol,form ul{list-style:none;}
 form fieldset{border:0;padding:10px 0;margin-bottom:20px;}
 form fieldset{background:#f4f4f4;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;box-shadow:inset 0 1px 4px #dddddd;-moz-box-shadow:inset 0 1px 4px #dddddd;-webkit-box-shadow:inset 0 1px 4px #dddddd;}
+form fieldset img {display: block; margin-left: 20%; border: 1px solid #aaa;}
 form fieldset legend{width:100%;}
 form fieldset legend {display:block;background:#efefef;background:-webkit-gradient(linear,left top,left bottom,from(#efefef),to(#dfe1e2));background:-moz-linear-gradient(-90deg,#efefef,#dfe1e2);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#efefef,endColorstr=#dfe1e2);-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#efefef,endColorstr=#dfe1e2);box-shadow:0 1px 2px rgba(0,0,0,0.37);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.37);-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.37);text-shadow:white 0 1px 0;border-bottom:1px solid #ededed;padding:5px 10px 3px 10px;font-size:1.0em;font-weight:bold;line-height:140%;margin-bottom:0.5em;color:#5e6469;}
 form fieldset legend span span.icon svg path,form fieldset legend span span.icon svg polygon,form fieldset legend span span.icon svg rect,form fieldset legend span span.icon svg circle{fill:#5e6469 !important;}
@@ -385,3 +386,14 @@ table.dashboard .dashboard_section hr{border:none;border-bottom:1px solid #E8E8E
 .scopes .scopes_seperator{display:none;}
 .columns{clear:both;padding:0;}
 .columns .column{float:left;}
+
+/* Dev */
+table {clear: both;}
+.atools {float: left; margin-bottom: 8px;}
+.atools div {float: left; }
+.atools input[type="submit"] {padding: 2px 10px; float: left; margin: -2px 0 0 5px; }
+.message {border: 2px solid #ccc; background: #f2f2f2; padding: 4px 10px; text-align: center; font-size: 14px;margin-bottom: 7px; }
+.label {background: #777; padding: 0px 4px; font-weight: bold; color: #fff; border-radius: 2px; display:inline-block;}
+.label-active {background: #00B61A;}
+.label-blocked {background: #B5090B;}
+.label-sold {background: #B5A014;}

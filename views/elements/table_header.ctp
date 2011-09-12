@@ -11,6 +11,7 @@
 				}
 			}
 			?>
+			<?php $paginator->options(array('url' => $this->passedArgs));?>
 		<th class="<?php echo $class ?>"><?php echo $paginator->sort($key);?></th>
 		<?php endforeach; ?>
 		<th></th>

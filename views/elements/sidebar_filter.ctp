@@ -21,7 +21,7 @@ $display_field = $model->displayField; ?>
 			</div>
 			<div class="buttons">
 				<?php echo $form->submit('Filter', array('div'=>false, 'id'=>'SubmitBtn')) ?>
-				<?php echo $html->link('Slett filtere', array('action'=>'index'), array('class'=>'clear_filters_btn')) ?>
+				<?php echo $html->link('Slett filtere', array('action'=>'index'), array('class'=>'clear_filters_btn clear_action')) ?>
 			</div>
 		</form>
 	</div>

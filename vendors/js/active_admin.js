@@ -3,12 +3,13 @@
 $(function(){
     $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
 
-    $(".clear_filters_btn").click(function(){
+    $(".clear_action").click(function(){
 		var inputs = $(this).parents('form').find('input[type="text"]');
 		inputs.val('');
 		$(this).parents('form').find('input[type="submit"]').click();
       return false;
     });
+	$('.thickbox,.lightbox').nyroModal();
     
     // AJAX Comments
     $('form#admin_note_new').submit(function() {
